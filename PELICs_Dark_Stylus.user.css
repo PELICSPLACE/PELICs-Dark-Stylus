@@ -1,0 +1,407 @@
+/* ==UserStyle==
+@name          PELIC's Dark Stylus
+@description   A dark user style for the stylus extension based on my own dark themes
+@version       1.1.3
+@namespace     PelicsPlace
+@author        Pelic
+@preprocessor  stylus
+==/UserStyle== */
+@-moz-document regexp('chrome-extension://.*'), regexp('moz-extension://.*') {
+     :root {
+          --dark01: #0A0A0A;
+          --dark02: #141414;
+          --dark03: #1E1E1E;
+          --dark04: #292929;
+          --dark05: #333333;
+          --dark06: #3D3D3D;
+          --dark07: #474747;
+          --dark08: #525252;
+          --dark09: #5C5C5C;
+          --dark10: #666666;
+          --lite01: #747474;
+          --lite02: #838383;
+          --lite03: #919191;
+          --lite04: #9F9F9F;
+          --lite05: #AEAEAE;
+          --lite06: #BCBCBC;
+          --lite07: #CACACA;
+          --lite08: #D8D8D8;
+          --lite09: #E7E7E7;
+          --lite10: #F5F5F5;
+          --comment: #008000;
+          --success-default: #336633;
+          --success-hovered: #448844;
+          --warning-default: #997300;
+          --warning-hovered: #CC9900;
+          --failure-default: #660000;
+          --failure-hovered: #990000;
+          --linkage-default: #336699;
+          --linkage-hovered: #4080BF;
+          --black: #000000;
+          --white: #FFFFFF;
+          --red: #FF0000;
+          --orange: #FF6600;
+          --yellow: #FFFF00;
+          --green: #009900;
+          --blue: #0088FF;
+          --indigo: #4B0082;
+          --violet: #9400D3;
+          --pink: #FF66FF;
+          --cyan: #00FFFF;
+          --lightred: #FF6666;
+          --lightorange: #FFCC66;
+          --lightyellow: #FFFF66;
+          --lightgreen: #99FF99;
+          --lightblue: #4DACFF;
+          --lightindigo: #8A2BE2 ;
+          --lightviolet: #BA55D3;
+          --lightpink: #FFB3FF;
+          --lightcyan: #4DFFFF;
+          --verylightred: #FF8080;
+          --verylightorange: #FFC080;
+          --verylightyellow: #FFFF80;
+          --verylightgreen: #D9FFB3;
+          --verylightblue: #9AD0FF;
+          --verylightindigo: #9932CC;
+          --verylightviolet: #DA70D6;
+          --verylightpink: #FFE6FF;
+          --verylightcyan: #9AFFFF;
+     }
+     /* Works on Firefox */
+     * {
+          scrollbar-width: none;
+     }
+     /* IE 10+ */
+     * {
+          -ms-overflow-style:none;
+     }
+     /* Works on Chrome, Edge, and Safari */
+     *::-webkit-scrollbar{
+          display:none;
+     }
+     /* CODE AREA */
+     .CodeMirror {
+          background: var(--dark02) !important;
+          font-family: 'Fantasque Sans Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+          font-size: 14px;
+          font-weight: 500;
+     }
+     .cm-property {
+          color: var(--blue) !important;
+     }
+     .CodeMirror-activeline-background {
+          background: var(--dark03) !important;
+     }
+     .cm-s-default .cm-qualifier,
+     .cm-s-default .cm-number {
+          color: var(--lightblue) !important;
+     }
+     .cm-s-default .cm-builtin {
+          color: var(--verylightgreen) !important;
+     }
+     .cm-s-default .cm-comment {
+          color: var(--comment) !important;
+     }
+     .CodeMirror-wrap pre,
+     .cm-s-default .cm-attribute {
+          color: var(--lite06) !important;
+     }
+     .cm-s-default .cm-variable-2,
+     .cm-s-default .cm-tag {
+          color: var(--verylightviolet) !important;
+     }
+     .cm-s-default .cm-variable-3,
+     .cm-s-default .cm-type {
+          color: var(--verylightorange) !important;
+     }
+     .cm-s-default .cm-atom {
+          color: var(--verylightblue) !important;
+     }
+     .cm-s-default .cm-string {
+          color: var(--verylightgreen) !important;
+     }
+     .CodeMirror-gutters {
+          background: var(--dark02) !important;
+          border-color: var(--dark02) !important;
+     }
+     .CodeMirror,
+     .CodeMirror-focused {
+          border: none !important;
+          outline-width: 0;
+     }
+     .cm-s-default .cm-keyword,
+     .cm-s-default .cm-def {
+          color: var(--lightpink) !important;
+     }
+     .resize-grip {
+          border-color: var(--dark04) !important;
+     }
+     .resize-grip::after {
+          border-color: var(--dark04) !important;
+     }
+     .colorview-swatch::after {
+          border-color: var(--dark01) !important;
+     }
+     .CodeMirror-cursor {
+          border-left: 1px solid var(--lite07) !important;
+     }
+     .cm-fat-cursor .CodeMirror-cursor {
+          background: var(--lite08) !important;
+     }
+     div.CodeMirror-selected {
+          background: var(--dark04) !important;
+     }
+     .section {
+          background: var(--dark02) !important;
+     }
+     /* GLOBAL */
+     body,
+     html {
+          background: var(--dark01);
+          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          font-weight: 500;
+          font-size: 12px;
+     }
+     #sections > div > label,
+     #sections h2 {
+          color: var(--lite05);
+          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          font-weight: 400;
+     }
+     #sections h2 {
+          margin-bottom: 10px;
+     }
+     #sections > div {
+          margin-top: 0;
+          padding-top: 5px;
+     }
+     /* HEADER */
+     #header {
+          border-right: 1px solid transparent;
+          overflow-x: hidden;
+          overflow-y: auto;
+          background: var(--dark02);
+          box-shadow: 0 0 15px var(--dark01);
+     }
+     #header h1,
+     #header h2,
+     #header h3,
+     #header p,
+     #header span,
+     #header a,
+     .applies-to li {
+          color: var(--lite06);
+          font-weight: 400;
+          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+     }
+     #header label {
+          color: var(--lite06);
+     }
+     #header select,
+     input[type='number'],
+     #header input[type='checkbox']:not(.slider),
+     #header input:not([type]) {
+          border: 1px solid var(--dark01);
+          background: var(--dark01);
+          color: var(--lite06) !important;
+          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+     }
+     #header .filter-selection label {
+          margin-bottom: 10px;
+          width: 100%;
+          height: 40px;
+     }
+     #header .select-resizer {
+          height: 40px;
+          width: 100%;
+     }
+     #header select {
+          padding: 10px;
+          height: 40px;
+          width: 100% !important;
+     }
+     #header .select-resizer select {
+          margin-left: 5px;
+     }
+     #header input[type='checkbox']:not(.slider):hover {
+          background: var(--dark04);
+          border: 1px solid var(--dark04);
+     }
+     .svg-icon.select-arrow {
+          fill: var(--lite06);
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%);
+     }
+     #header button {
+          background: var(--dark01);
+          border-color: var(--dark01);
+          color: var(--lite06);
+          border-radius: 5px;
+          cursor: pointer;
+          padding: 8px;
+          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+     }
+     #header button:hover {
+          background: var(--dark04);
+          border-color: var(--dark04);
+     }
+     .svg-icon,
+     .svg-icon.info:hover,
+     .svg-icon.settings:hover {
+          fill: var(--lite05);
+     }
+     #filters label:hover,
+     #filters .filter-selection:hover {
+          background: transparent;
+     }
+     /* MANAGE */
+     .style-name a,
+     .style-edit-link,
+     .newUI .target {
+          color: var(--lite06);
+     }
+     .newUI .entry.enabled .style-name:hover .style-name-link {
+          color: var(--lightblue);
+     }
+     .newUI .entry.odd {
+          background: var(--dark02);
+     }
+     .newUI .entry .style-name:hover::before {
+          background: linear-gradient(to right, var(--linkage-default), var(--linkage-hovered) 50%, transparent);
+     }
+     #search,
+     #manage\.newUI\.sort {
+          background: var(--dark01);
+          border-color: var(--dark01);
+          padding: 15px;
+          color: var(--lite06);
+     }
+     /* APPLIES TO */
+     .edit-actions button {
+          background: var(--dark01);
+          border-color: var(--dark01);
+          color: var(--lite06);
+          border-radius: 5px;
+          cursor: pointer;
+          margin-left: 5px;
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+     }
+     .edit-actions button:hover {
+          background: var(--dark04);
+          border-color: var(--dark04);
+     }
+     .applies-to select,
+     .applies-to li .applies-value {
+          background: var(--dark01);
+          border-color: var(--dark01);
+          cursor: pointer;
+          border-radius: 5px;
+          color: var(--lite06);
+          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+     }
+     .applies-to label {
+          color: var(--lite06);
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+     }
+     .applies-to li > :not(button):not(.select-resizer) {
+          color: var(--lite06);
+          background: var(--dark01);
+          border-color: var(--dark01);
+          border-radius: 5px;
+     }
+     #sections > div:nth-child(2) {
+          background: var(--dark02);
+     }
+     #sections > div:not(:first-of-type) {
+          background: var(--dark02);
+          border-color: transparent;
+     }
+     #sections > div > button:not(:first-of-type),
+     .remove-section {
+          background: var(--dark01);
+          color: var(--lite06);
+          border-color: var(--dark01);
+          border-radius: 5px;
+          cursor: pointer;
+     }
+     #sections > div > button:not(:first-of-type):hover,
+     .remove-section:hover {
+          background: var(--dark04) !important;
+          border-color: var(--dark04) !important;
+     }
+     /* POP UP */
+     .style-name {
+          color: var(--lite08);
+     }
+     #stylus-popup {
+          background: var(--dark02);
+     }
+     #installed .style-name .checker,
+     #installed .style-name .svg-icon.checked,
+     input[type='checkbox']:not(.slider):checked + .svg-icon.checked {
+          background: var(--dark04);
+          border-color: var(--dark04);
+          fill: var(--lite06) !important;
+     }
+     #stylus-popup .actions {
+          color: var(--lite06) !important;
+     }
+     #stylus-popup .actions a {
+          color: var(--lite06) !important;
+     }
+     #stylus-popup input[type='checkbox']:not(.slider) {
+          background: var(--dark04);
+          border-color: var(--dark04);
+     }
+     #stylus-popup input[type='checkbox']:not(.slider):hover {
+          background: var(--dark05);
+          border-color: var(--dark05);
+     }
+     #popup-options button {
+          background: var(--dark01);
+          border-color: var(--dark01);
+          color: var(--lite06);
+          padding: 5px;
+          border-radius: 5px;
+          cursor: pointer;
+     }
+     #popup-options button:hover {
+          background: var(--dark04);
+          border-color: var(--dark04);
+          color: var(--lite06);
+          border-radius: 5px;
+          cursor: pointer;
+     }
+     #stylus-popup .search-results-nav,
+     #stylus-popup .search-results-nav button {
+          color: var(--lite06) !important;
+     }
+     #stylus-popup .search-result {
+          background: var(--dark02);
+          border-color: var(--dark02);
+          box-shadow: none;
+     }
+     .search-result-title {
+          color: var(--lite06);
+          text-decoration: none;
+     }
+     .search-result:hover .search-result-title {
+          color: var(--lite06);
+     }
+     .search-result-description {
+          color: var(--lite05);
+     }
+     .search-result-meta {
+          background: var(--dark02) !important;
+          color: var(--lite06) !important;
+          opacity: .9 !important;
+     }
+     #no-styles {
+          color: var(--lite06);
+     }
+     #search-replace-dialog textarea,
+     .blocked-info {
+          color: var(--lite06);
+     }
+}

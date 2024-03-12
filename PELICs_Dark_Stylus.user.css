@@ -1,71 +1,71 @@
 /* ==UserStyle==
 @name          PELIC's Dark Stylus
 @description   A dark user style for the stylus extension based on my own dark themes
-@version       1.1.3
+@version       1.1.4
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
 ==/UserStyle== */
 @-moz-document regexp('chrome-extension://.*'), regexp('moz-extension://.*') {
      :root {
-          --dark01: #0A0A0A;
-          --dark02: #141414;
-          --dark03: #1E1E1E;
-          --dark04: #292929;
-          --dark05: #333333;
-          --dark06: #3D3D3D;
-          --dark07: #474747;
-          --dark08: #525252;
-          --dark09: #5C5C5C;
-          --dark10: #666666;
-          --lite01: #747474;
-          --lite02: #838383;
-          --lite03: #919191;
-          --lite04: #9F9F9F;
-          --lite05: #AEAEAE;
-          --lite06: #BCBCBC;
-          --lite07: #CACACA;
-          --lite08: #D8D8D8;
-          --lite09: #E7E7E7;
-          --lite10: #F5F5F5;
-          --comment: #008000;
-          --success-default: #336633;
-          --success-hovered: #448844;
-          --warning-default: #997300;
-          --warning-hovered: #CC9900;
-          --failure-default: #660000;
-          --failure-hovered: #990000;
-          --linkage-default: #336699;
-          --linkage-hovered: #4080BF;
-          --black: #000000;
-          --white: #FFFFFF;
-          --red: #FF0000;
-          --orange: #FF6600;
-          --yellow: #FFFF00;
-          --green: #009900;
-          --blue: #0088FF;
-          --indigo: #4B0082;
-          --violet: #9400D3;
-          --pink: #FF66FF;
-          --cyan: #00FFFF;
-          --lightred: #FF6666;
-          --lightorange: #FFCC66;
-          --lightyellow: #FFFF66;
-          --lightgreen: #99FF99;
-          --lightblue: #4DACFF;
-          --lightindigo: #8A2BE2;
-          --lightviolet: #BA55D3;
-          --lightpink: #FFB3FF;
-          --lightcyan: #4DFFFF;
-          --verylightred: #FF8080;
-          --verylightorange: #FFC080;
-          --verylightyellow: #FFFF80;
-          --verylightgreen: #D9FFB3;
-          --verylightblue: #9AD0FF;
-          --verylightindigo: #9932CC;
-          --verylightviolet: #DA70D6;
-          --verylightpink: #FFE6FF;
-          --verylightcyan: #9AFFFF;
+          --dark01:#0A0A0A;
+          --dark02:#141414;
+          --dark03:#1E1E1E;
+          --dark04:#292929;
+          --dark05:#333333;
+          --dark06:#3D3D3D;
+          --dark07:#474747;
+          --dark08:#525252;
+          --dark09:#5C5C5C;
+          --dark10:#666666;
+          --lite01:#747474;
+          --lite02:#828282;
+          --lite03:#919191;
+          --lite04:#9F9F9F;
+          --lite05:#ADADAD;
+          --lite06:#BCBCBC;
+          --lite07:#CACACA;
+          --lite08:#D8D8D8;
+          --lite09:#E7E7E7;
+          --lite10:#F5F5F5;
+          --comment:#008000;
+          --success-default:#336633;
+          --success-hovered:#448844;
+          --warning-default:#997300;
+          --warning-hovered:#CC9900;
+          --failure-default:#660000;
+          --failure-hovered:#990000;
+          --linkage-default:#336699;
+          --linkage-hovered:#4080BF;
+          --black:#000000;
+          --white:#FFFFFF;
+          --red:#FF0000;
+          --orange:#FF6600;
+          --yellow:#FFFF00;
+          --green:#009900;
+          --blue:#0088FF;
+          --indigo:#4B0082;
+          --violet:#9400D3;
+          --pink:#FF66FF;
+          --cyan:#00FFFF;
+          --lightred:#FF6666;
+          --lightorange:#FFCC66;
+          --lightyellow:#FFFF66;
+          --lightgreen:#99FF99;
+          --lightblue:#4DACFF;
+          --lightindigo:#8A2BE2;
+          --lightviolet:#BA55D3;
+          --lightpink:#FFB3FF;
+          --lightcyan:#4DFFFF;
+          --verylightred:#FF8080;
+          --verylightorange:#FFC080;
+          --verylightyellow:#FFFF80;
+          --verylightgreen:#D9FFB3;
+          --verylightblue:#9AD0FF;
+          --verylightindigo:#9932CC;
+          --verylightviolet:#DA70D6;
+          --verylightpink:#FFE6FF;
+          --verylightcyan:#9AFFFF;
      }
      /* Works on Firefox */
      * {

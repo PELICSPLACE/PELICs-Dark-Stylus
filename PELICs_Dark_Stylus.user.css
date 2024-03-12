@@ -67,18 +67,28 @@
           --verylightpink:#FFE6FF;
           --verylightcyan:#9AFFFF;
      }
-     /* Works on Firefox */
-     * {
-          scrollbar-width: none;
-     }
-     /* IE 10+ */
-     * {
-          -ms-overflow-style:none;
-     }
+     /****************************************/
      /* Works on Chrome, Edge, and Safari */
      *::-webkit-scrollbar{
           display:none;
      }
+     /* Works on Firefox */
+     * {
+          scrollbar-width: none;
+     }
+     /****************************************/
+     *::-moz-selection {
+          background: var(--linkage-hovered);
+          color: var(--lite08);
+          text-shadow: none;
+     }
+     
+     *::selection {
+          background: var(--linkage-hovered);
+          color: var(--lite08);
+          text-shadow: none;
+     }
+     /****************************************/
      /* CODE AREA */
      .CodeMirror {
           background: var(--dark02) !important;

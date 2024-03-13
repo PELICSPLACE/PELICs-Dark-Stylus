@@ -67,7 +67,7 @@
           --verylightpink:#FFE6FF;
           --verylightcyan:#9AFFFF;
      }
-     /****************************************/
+     /*****************************************/
      /* Works on Chrome, Edge, and Safari */
      *::-webkit-scrollbar{
           display:none;
@@ -76,19 +76,18 @@
      * {
           scrollbar-width: none;
      }
-     /****************************************/
+     /*****************************************/
      *::-moz-selection {
           background: var(--linkage-hovered);
           color: var(--lite08);
           text-shadow: none;
      }
-     
      *::selection {
           background: var(--linkage-hovered);
           color: var(--lite08);
           text-shadow: none;
      }
-     /****************************************/
+     /*****************************************/
      /* CODE AREA */
      .CodeMirror {
           background: var(--dark02) !important;

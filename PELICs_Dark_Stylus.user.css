@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          PELIC's Dark Stylus
 @description   A dark user style for the stylus extension based on my own dark themes
-@version       1.1.5
+@version       1.1.6
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
@@ -67,7 +67,7 @@
           --verylightpink:#FFE6FF;
           --verylightcyan:#9AFFFF;
      }
-     /*****************************************/
+     /****************************************/
      /* Works on Chrome, Edge, and Safari */
      *::-webkit-scrollbar{
           display:none;
@@ -76,18 +76,19 @@
      * {
           scrollbar-width: none;
      }
-     /*****************************************/
+     /****************************************/
      *::-moz-selection {
           background: var(--linkage-hovered);
           color: var(--lite08);
           text-shadow: none;
      }
+     
      *::selection {
           background: var(--linkage-hovered);
           color: var(--lite08);
           text-shadow: none;
      }
-     /*****************************************/
+     /****************************************/
      /* CODE AREA */
      .CodeMirror {
           background: var(--dark02) !important;
@@ -163,6 +164,9 @@
      .section {
           background: var(--dark02) !important;
      }
+	select.applies-type {
+		height: 1.3em;
+	}
      /* GLOBAL */
      body,
      html {
@@ -173,7 +177,7 @@
      }
      #sections > div > label,
      #sections h2 {
-          color: var(--lite05);
+          color: var(--lite05) !important;
           font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
           font-weight: 400;
      }
@@ -199,12 +203,12 @@
      #header span,
      #header a,
      .applies-to li {
-          color: var(--lite06);
+          color: var(--lite05) !important;
           font-weight: 400;
           font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header label {
-          color: var(--lite06);
+          color: var(--lite05) !important;
      }
      #header select,
      input[type='number'],
@@ -212,7 +216,7 @@
      #header input:not([type]) {
           border: 1px solid var(--dark01);
           background: var(--dark01);
-          color: var(--lite06) !important;
+          color: var(--lite05) !important;
           font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header .filter-selection label {
@@ -245,7 +249,7 @@
      #header button {
           background: var(--dark01);
           border-color: var(--dark01);
-          color: var(--lite06);
+          color: var(--lite05) !important;
           border-radius: 5px;
           cursor: pointer;
           padding: 8px;
@@ -268,7 +272,7 @@
      .style-name a,
      .style-edit-link,
      .newUI .target {
-          color: var(--lite06);
+          color: var(--lite05) !important;
      }
      .newUI .entry.enabled .style-name:hover .style-name-link {
           color: var(--lightblue);
@@ -284,13 +288,13 @@
           background: var(--dark01);
           border-color: var(--dark01);
           padding: 15px;
-          color: var(--lite06);
+          color: var(--lite05) !important;
      }
      /* APPLIES TO */
      .edit-actions button {
           background: var(--dark01);
           border-color: var(--dark01);
-          color: var(--lite06);
+          color: var(--lite05) !important;
           border-radius: 5px;
           cursor: pointer;
           margin-left: 5px;
@@ -306,15 +310,15 @@
           border-color: var(--dark01);
           cursor: pointer;
           border-radius: 5px;
-          color: var(--lite06);
+          color: var(--lite05) !important;
           font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .applies-to label {
-          color: var(--lite06);
+          color: var(--lite05) !important;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .applies-to li > :not(button):not(.select-resizer) {
-          color: var(--lite06);
+          color: var(--lite05) !important;
           background: var(--dark01);
           border-color: var(--dark01);
           border-radius: 5px;
@@ -329,7 +333,7 @@
      #sections > div > button:not(:first-of-type),
      .remove-section {
           background: var(--dark01);
-          color: var(--lite06);
+          color: var(--lite05) !important;
           border-color: var(--dark01);
           border-radius: 5px;
           cursor: pointer;
@@ -354,10 +358,10 @@
           fill: var(--lite06) !important;
      }
      #stylus-popup .actions {
-          color: var(--lite06) !important;
+          color: var(--lite05) !important;
      }
      #stylus-popup .actions a {
-          color: var(--lite06) !important;
+          color: var(--lite05) !important;
      }
      #stylus-popup input[type='checkbox']:not(.slider) {
           background: var(--dark04);
@@ -370,7 +374,7 @@
      #popup-options button {
           background: var(--dark01);
           border-color: var(--dark01);
-          color: var(--lite06);
+          color: var(--lite05) !important;
           padding: 5px;
           border-radius: 5px;
           cursor: pointer;
@@ -378,13 +382,13 @@
      #popup-options button:hover {
           background: var(--dark04);
           border-color: var(--dark04);
-          color: var(--lite06);
+          color: var(--lite05) !important;
           border-radius: 5px;
           cursor: pointer;
      }
      #stylus-popup .search-results-nav,
      #stylus-popup .search-results-nav button {
-          color: var(--lite06) !important;
+          color: var(--lite05) !important;
      }
      #stylus-popup .search-result {
           background: var(--dark02);
@@ -392,25 +396,25 @@
           box-shadow: none;
      }
      .search-result-title {
-          color: var(--lite06);
+          color: var(--lite05) !important;
           text-decoration: none;
      }
      .search-result:hover .search-result-title {
-          color: var(--lite06);
+          color: var(--lite05) !important;
      }
      .search-result-description {
-          color: var(--lite05);
+          color: var(--lite05) !important;
      }
      .search-result-meta {
           background: var(--dark02) !important;
-          color: var(--lite06) !important;
+          color: var(--lite05) !important;
           opacity: .9 !important;
      }
      #no-styles {
-          color: var(--lite06);
+          color: var(--lite05) !important;
      }
      #search-replace-dialog textarea,
      .blocked-info {
-          color: var(--lite06);
+          color: var(--lite05) !important;
      }
 }

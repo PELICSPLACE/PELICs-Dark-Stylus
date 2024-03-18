@@ -77,127 +77,127 @@
      }
      /* Works on Firefox */
      * {
-          scrollbar-width: none;
+          scrollbar-width:none;
      }
      /*****************************************/
      *::-moz-selection {
-          background: var(--linkage-hovered);
-          color: var(--lite08);
-          text-shadow: none;
+          background:var(--linkage-hovered);
+          color:var(--lite08);
+          text-shadow:none;
      }
      
      *::selection {
-          background: var(--linkage-hovered);
-          color: var(--lite08);
-          text-shadow: none;
+          background:var(--linkage-hovered);
+          color:var(--lite08);
+          text-shadow:none;
      }
      /*****************************************/
      /* CODE AREA */
      .CodeMirror {
-          background: var(--dark02) !important;
-          font-family: 'Fantasque Sans Mono', 'Liberation Mono', Consolas, Menlo, Courier, monospace;
-          font-size: 15px;
-          font-weight: 500;
+          background:var(--dark02) !important;
+          font-family:'Fantasque Sans Mono', 'Liberation Mono', Consolas, Menlo, Courier, monospace;
+          font-size:15px;
+          font-weight:500;
      }
      .cm-property {
-          color: var(--blue) !important;
+          color:var(--blue) !important;
      }
      .CodeMirror-activeline-background {
-          background: var(--dark03) !important;
+          background:var(--dark03) !important;
      }
      .cm-s-default .cm-qualifier,
      .cm-s-default .cm-number {
-          color: var(--lightblue) !important;
+          color:var(--lightblue) !important;
      }
      .cm-s-default .cm-builtin {
-          color: var(--verylightgreen) !important;
+          color:var(--verylightgreen) !important;
      }
      .cm-s-default .cm-comment {
-          color: var(--comment) !important;
+          color:var(--comment) !important;
      }
      .CodeMirror-wrap pre,
      .cm-s-default .cm-attribute {
-          color: var(--lite06) !important;
+          color:var(--lite06) !important;
      }
      .cm-s-default .cm-variable-2,
      .cm-s-default .cm-tag {
-          color: var(--verylightviolet) !important;
+          color:var(--verylightviolet) !important;
      }
      .cm-s-default .cm-variable-3,
      .cm-s-default .cm-type {
-          color: var(--verylightorange) !important;
+          color:var(--verylightorange) !important;
      }
      .cm-s-default .cm-atom {
-          color: var(--verylightblue) !important;
+          color:var(--verylightblue) !important;
      }
      .cm-s-default .cm-string {
-          color: var(--verylightgreen) !important;
+          color:var(--verylightgreen) !important;
      }
      .CodeMirror-gutters {
-          background: var(--dark02) !important;
-          border-color: var(--dark02) !important;
+          background:var(--dark02) !important;
+          border-color:var(--dark02) !important;
      }
      .CodeMirror,
      .CodeMirror-focused {
-          border: none !important;
-          outline-width: 0;
+          border:none !important;
+          outline-width:0;
      }
      .cm-s-default .cm-keyword,
      .cm-s-default .cm-def {
-          color: var(--lightpink) !important;
+          color:var(--lightpink) !important;
      }
      .resize-grip {
-          border-color: var(--dark04) !important;
+          border-color:var(--dark04) !important;
      }
      .resize-grip::after {
-          border-color: var(--dark04) !important;
+          border-color:var(--dark04) !important;
      }
      .colorview-swatch::after {
-          border-color: var(--dark01) !important;
+          border-color:var(--dark01) !important;
      }
      .CodeMirror-cursor {
-          border-left: 1px solid var(--lite07) !important;
+          border-left:1px solid var(--lite07) !important;
      }
      .cm-fat-cursor .CodeMirror-cursor {
-          background: var(--lite08) !important;
+          background:var(--lite08) !important;
      }
      div.CodeMirror-selected {
-          background: var(--dark04) !important;
+          background:var(--dark04) !important;
      }
      .section {
-          background: var(--dark02) !important;
+          background:var(--dark02) !important;
      }
 	select.applies-type {
-		height: 1.3em;
+		height:1.3em;
 	}
      /* GLOBAL */
      body,
      html {
-          background: var(--dark01);
-          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
-          font-weight: 500;
-          font-size: 12px;
+          background:var(--dark01);
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          font-weight:500;
+          font-size:12px;
      }
      #sections > div > label,
      #sections h2 {
-          color: var(--lite05) !important;
-          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
-          font-weight: 400;
+          color:var(--lite05) !important;
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          font-weight:400;
      }
      #sections h2 {
-          margin-bottom: 10px;
+          margin-bottom:10px;
      }
      #sections > div {
-          margin-top: 0;
-          padding-top: 5px;
+          margin-top:0;
+          padding-top:5px;
      }
      /* HEADER */
      #header {
-          border-right: 1px solid transparent;
-          overflow-x: hidden;
-          overflow-y: auto;
-          background: var(--dark02);
-          box-shadow: 0 0 15px var(--dark01);
+          border-right:1px solid transparent;
+          overflow-x:hidden;
+          overflow-y:auto;
+          background:var(--dark02);
+          box-shadow:0 0 15px var(--dark01);
      }
      #header h1,
      #header h2,
@@ -206,218 +206,218 @@
      #header span,
      #header a,
      .applies-to li {
-          color: var(--lite05) !important;
-          font-weight: 400;
-          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          color:var(--lite05) !important;
+          font-weight:400;
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header label {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      #header select,
      input[type='number'],
      #header input[type='checkbox']:not(.slider),
      #header input:not([type]) {
-          border: 1px solid var(--dark01);
-          background: var(--dark01);
-          color: var(--lite05) !important;
-          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          border:1px solid var(--dark01);
+          background:var(--dark01);
+          color:var(--lite05) !important;
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header .filter-selection label {
-          margin-bottom: 10px;
-          width: 100%;
-          height: 40px;
+          margin-bottom:10px;
+          width:100%;
+          height:40px;
      }
      #header .select-resizer {
-          height: 40px;
-          width: 100%;
+          height:40px;
+          width:100%;
      }
      #header select {
-          padding: 10px;
-          height: 40px;
-          width: 100% !important;
+          padding:10px;
+          height:40px;
+          width:100% !important;
      }
      #header .select-resizer select {
-          margin-left: 5px;
+          margin-left:5px;
      }
      #header input[type='checkbox']:not(.slider):hover {
-          background: var(--dark04);
-          border: 1px solid var(--dark04);
+          background:var(--dark04);
+          border:1px solid var(--dark04);
      }
      .svg-icon.select-arrow {
-          fill: var(--lite06);
-          top: 50%;
-          right: 10px;
-          transform: translateY(-50%);
+          fill:var(--lite06);
+          top:50%;
+          right:10px;
+          transform:translateY(-50%);
      }
      #header button {
-          background: var(--dark01);
-          border-color: var(--dark01);
-          color: var(--lite05) !important;
-          border-radius: 5px;
-          cursor: pointer;
-          padding: 8px;
-          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          background:var(--dark01);
+          border-color:var(--dark01);
+          color:var(--lite05) !important;
+          border-radius:5px;
+          cursor:pointer;
+          padding:8px;
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header button:hover {
-          background: var(--dark04);
-          border-color: var(--dark04);
+          background:var(--dark04);
+          border-color:var(--dark04);
      }
      .svg-icon,
      .svg-icon.info:hover,
      .svg-icon.settings:hover {
-          fill: var(--lite05);
+          fill:var(--lite05);
      }
      #filters label:hover,
      #filters .filter-selection:hover {
-          background: transparent;
+          background:transparent;
      }
      /* MANAGE */
      .style-name a,
      .style-edit-link,
      .newUI .target {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      .newUI .entry.enabled .style-name:hover .style-name-link {
-          color: var(--lightblue);
+          color:var(--lightblue);
      }
      .newUI .entry.odd {
-          background: var(--dark02);
+          background:var(--dark02);
      }
      .newUI .entry .style-name:hover::before {
-          background: linear-gradient(to right, var(--linkage-default), var(--linkage-hovered) 50%, transparent);
+          background:linear-gradient(to right, var(--linkage-default), var(--linkage-hovered) 50%, transparent);
      }
      #search,
      #manage\.newUI\.sort {
-          background: var(--dark01);
-          border-color: var(--dark01);
-          padding: 15px;
-          color: var(--lite05) !important;
+          background:var(--dark01);
+          border-color:var(--dark01);
+          padding:15px;
+          color:var(--lite05) !important;
      }
      /* APPLIES TO */
      .edit-actions button {
-          background: var(--dark01);
-          border-color: var(--dark01);
-          color: var(--lite05) !important;
-          border-radius: 5px;
-          cursor: pointer;
-          margin-left: 5px;
+          background:var(--dark01);
+          border-color:var(--dark01);
+          color:var(--lite05) !important;
+          border-radius:5px;
+          cursor:pointer;
+          margin-left:5px;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .edit-actions button:hover {
-          background: var(--dark04);
-          border-color: var(--dark04);
+          background:var(--dark04);
+          border-color:var(--dark04);
      }
      .applies-to select,
      .applies-to li .applies-value {
-          background: var(--dark01);
-          border-color: var(--dark01);
-          cursor: pointer;
-          border-radius: 5px;
-          color: var(--lite05) !important;
-          font-family: 'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
+          background:var(--dark01);
+          border-color:var(--dark01);
+          cursor:pointer;
+          border-radius:5px;
+          color:var(--lite05) !important;
+          font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .applies-to label {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .applies-to li > :not(button):not(.select-resizer) {
-          color: var(--lite05) !important;
-          background: var(--dark01);
-          border-color: var(--dark01);
-          border-radius: 5px;
+          color:var(--lite05) !important;
+          background:var(--dark01);
+          border-color:var(--dark01);
+          border-radius:5px;
      }
      #sections > div:nth-child(2) {
-          background: var(--dark02);
+          background:var(--dark02);
      }
      #sections > div:not(:first-of-type) {
-          background: var(--dark02);
-          border-color: transparent;
+          background:var(--dark02);
+          border-color:transparent;
      }
      #sections > div > button:not(:first-of-type),
      .remove-section {
-          background: var(--dark01);
-          color: var(--lite05) !important;
-          border-color: var(--dark01);
-          border-radius: 5px;
-          cursor: pointer;
+          background:var(--dark01);
+          color:var(--lite05) !important;
+          border-color:var(--dark01);
+          border-radius:5px;
+          cursor:pointer;
      }
      #sections > div > button:not(:first-of-type):hover,
      .remove-section:hover {
-          background: var(--dark04) !important;
-          border-color: var(--dark04) !important;
+          background:var(--dark04) !important;
+          border-color:var(--dark04) !important;
      }
      /* POP UP */
      .style-name {
-          color: var(--lite08);
+          color:var(--lite08);
      }
      #stylus-popup {
-          background: var(--dark02);
+          background:var(--dark02);
      }
      #installed .style-name .checker,
      #installed .style-name .svg-icon.checked,
      input[type='checkbox']:not(.slider):checked + .svg-icon.checked {
-          background: var(--dark04);
-          border-color: var(--dark04);
-          fill: var(--lite06) !important;
+          background:var(--dark04);
+          border-color:var(--dark04);
+          fill:var(--lite06) !important;
      }
      #stylus-popup .actions {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      #stylus-popup .actions a {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      #stylus-popup input[type='checkbox']:not(.slider) {
-          background: var(--dark04);
-          border-color: var(--dark04);
+          background:var(--dark04);
+          border-color:var(--dark04);
      }
      #stylus-popup input[type='checkbox']:not(.slider):hover {
-          background: var(--dark05);
-          border-color: var(--dark05);
+          background:var(--dark05);
+          border-color:var(--dark05);
      }
      #popup-options button {
-          background: var(--dark01);
-          border-color: var(--dark01);
-          color: var(--lite05) !important;
-          padding: 5px;
-          border-radius: 5px;
-          cursor: pointer;
+          background:var(--dark01);
+          border-color:var(--dark01);
+          color:var(--lite05) !important;
+          padding:5px;
+          border-radius:5px;
+          cursor:pointer;
      }
      #popup-options button:hover {
-          background: var(--dark04);
-          border-color: var(--dark04);
-          color: var(--lite05) !important;
-          border-radius: 5px;
-          cursor: pointer;
+          background:var(--dark04);
+          border-color:var(--dark04);
+          color:var(--lite05) !important;
+          border-radius:5px;
+          cursor:pointer;
      }
      #stylus-popup .search-results-nav,
      #stylus-popup .search-results-nav button {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      #stylus-popup .search-result {
-          background: var(--dark02);
-          border-color: var(--dark02);
-          box-shadow: none;
+          background:var(--dark02);
+          border-color:var(--dark02);
+          box-shadow:none;
      }
      .search-result-title {
-          color: var(--lite05) !important;
-          text-decoration: none;
+          color:var(--lite05) !important;
+          text-decoration:none;
      }
      .search-result:hover .search-result-title {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      .search-result-description {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      .search-result-meta {
-          background: var(--dark02) !important;
-          color: var(--lite05) !important;
-          opacity: .9 !important;
+          background:var(--dark02) !important;
+          color:var(--lite05) !important;
+          opacity:0.9 !important;
      }
      #no-styles {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
      #search-replace-dialog textarea,
      .blocked-info {
-          color: var(--lite05) !important;
+          color:var(--lite05) !important;
      }
 }

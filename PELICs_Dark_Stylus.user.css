@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          PELIC's Dark Stylus
 @description   A dark user style for the stylus extension based on my own dark themes
-@version       1.1.8
+@version       1.1.9
 @homepageURL   https://github.com/PELICSPLACE/PELICs-Dark-Stylus
 @updateURL     https://github.com/PELICSPLACE/PELICs-Dark-Stylus/raw/main/PELICs_Dark_Stylus.user.css
 @license       CC-BY-SA-4.0
@@ -14,23 +14,28 @@
           --dark01:#0A0A0A;
           --dark02:#141414;
           --dark03:#1E1E1E;
-          --dark04:#292929;
-          --dark05:#333333;
-          --dark06:#3D3D3D;
-          --dark07:#474747;
-          --dark08:#525252;
-          --dark09:#5C5C5C;
-          --dark10:#666666;
-          --lite01:#747474;
-          --lite02:#828282;
-          --lite03:#919191;
-          --lite04:#9F9F9F;
-          --lite05:#ADADAD;
-          --lite06:#BCBCBC;
-          --lite07:#CACACA;
-          --lite08:#D8D8D8;
-          --lite09:#E7E7E7;
-          --lite10:#F5F5F5;
+          --dark04:#282828;
+          --dark05:#323232;
+          --dark06:#3C3C3C;
+          --dark07:#464646;
+          --dark08:#505050;
+          --dark09:#5A5A5A;
+          --dark10:#646464;
+          --dark11:#6E6E6E;
+          --dark12:#787878;
+          --dark13:#828282;
+          --dark14:#8C8C8C;
+          --dark15:#969696;
+          --dark16:#A0A0A0;
+          --dark17:#AAAAAA;
+          --dark18:#B4B4B4;
+          --dark19:#BEBEBE;
+          --dark20:#C8C8C8;
+          --dark21:#D2D2D2;
+          --dark22:#DCDCDC;
+          --dark23:#E6E6E6;
+          --dark24:#F0F0F0;
+          --dark25:#FAFAFA;
           --comment:#008000;
           --success-default:#336633;
           --success-hovered:#448844;
@@ -48,7 +53,7 @@
           --green:#009900;
           --blue:#0088FF;
           --indigo:#4B0082;
-          --violet:#9400D3;
+          --violet:#9F00FF;
           --pink:#FF66FF;
           --cyan:#00FFFF;
           --lightred:#FF6666;
@@ -57,7 +62,7 @@
           --lightgreen:#99FF99;
           --lightblue:#4DACFF;
           --lightindigo:#8A2BE2;
-          --lightviolet:#BA55D3;
+          --lightviolet:#EE82EE;
           --lightpink:#FFB3FF;
           --lightcyan:#4DFFFF;
           --verylightred:#FF8080;
@@ -82,13 +87,13 @@
      /*****************************************/
      *::-moz-selection {
           background:var(--linkage-hovered);
-          color:var(--lite08);
+          color:var(--dark18);
           text-shadow:none;
      }
      
      *::selection {
           background:var(--linkage-hovered);
-          color:var(--lite08);
+          color:var(--dark18);
           text-shadow:none;
      }
      /*****************************************/
@@ -117,7 +122,7 @@
      }
      .CodeMirror-wrap pre,
      .cm-s-default .cm-attribute {
-          color:var(--lite06) !important;
+          color:var(--dark16) !important;
      }
      .cm-s-default .cm-variable-2,
      .cm-s-default .cm-tag {
@@ -156,10 +161,10 @@
           border-color:var(--dark01) !important;
      }
      .CodeMirror-cursor {
-          border-left:1px solid var(--lite07) !important;
+          border-left:1px solid var(--dark17) !important;
      }
      .cm-fat-cursor .CodeMirror-cursor {
-          background:var(--lite08) !important;
+          background:var(--dark18) !important;
      }
      div.CodeMirror-selected {
           background:var(--dark04) !important;
@@ -180,7 +185,7 @@
      }
      #sections > div > label,
      #sections h2 {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
           font-weight:400;
      }
@@ -206,12 +211,12 @@
      #header span,
      #header a,
      .applies-to li {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           font-weight:400;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header label {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      #header select,
      input[type='number'],
@@ -219,7 +224,7 @@
      #header input:not([type]) {
           border:1px solid var(--dark01);
           background:var(--dark01);
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      #header .filter-selection label {
@@ -244,7 +249,7 @@
           border:1px solid var(--dark04);
      }
      .svg-icon.select-arrow {
-          fill:var(--lite06);
+          fill:var(--dark16);
           top:50%;
           right:10px;
           transform:translateY(-50%);
@@ -252,7 +257,7 @@
      #header button {
           background:var(--dark01);
           border-color:var(--dark01);
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           border-radius:5px;
           cursor:pointer;
           padding:8px;
@@ -265,7 +270,7 @@
      .svg-icon,
      .svg-icon.info:hover,
      .svg-icon.settings:hover {
-          fill:var(--lite05);
+          fill:var(--dark15);
      }
      #filters label:hover,
      #filters .filter-selection:hover {
@@ -275,7 +280,7 @@
      .style-name a,
      .style-edit-link,
      .newUI .target {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      .newUI .entry.enabled .style-name:hover .style-name-link {
           color:var(--lightblue);
@@ -291,13 +296,13 @@
           background:var(--dark01);
           border-color:var(--dark01);
           padding:15px;
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      /* APPLIES TO */
      .edit-actions button {
           background:var(--dark01);
           border-color:var(--dark01);
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           border-radius:5px;
           cursor:pointer;
           margin-left:5px;
@@ -313,15 +318,15 @@
           border-color:var(--dark01);
           cursor:pointer;
           border-radius:5px;
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .applies-to label {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           font-family:'Roboto Condensed', 'Roboto', 'Open Sans', Arial, sans-serif;
      }
      .applies-to li > :not(button):not(.select-resizer) {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           background:var(--dark01);
           border-color:var(--dark01);
           border-radius:5px;
@@ -336,7 +341,7 @@
      #sections > div > button:not(:first-of-type),
      .remove-section {
           background:var(--dark01);
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           border-color:var(--dark01);
           border-radius:5px;
           cursor:pointer;
@@ -348,7 +353,7 @@
      }
      /* POP UP */
      .style-name {
-          color:var(--lite08);
+          color:var(--dark18);
      }
      #stylus-popup {
           background:var(--dark02);
@@ -358,13 +363,13 @@
      input[type='checkbox']:not(.slider):checked + .svg-icon.checked {
           background:var(--dark04);
           border-color:var(--dark04);
-          fill:var(--lite06) !important;
+          fill:var(--dark16) !important;
      }
      #stylus-popup .actions {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      #stylus-popup .actions a {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      #stylus-popup input[type='checkbox']:not(.slider) {
           background:var(--dark04);
@@ -377,7 +382,7 @@
      #popup-options button {
           background:var(--dark01);
           border-color:var(--dark01);
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           padding:5px;
           border-radius:5px;
           cursor:pointer;
@@ -385,13 +390,13 @@
      #popup-options button:hover {
           background:var(--dark04);
           border-color:var(--dark04);
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           border-radius:5px;
           cursor:pointer;
      }
      #stylus-popup .search-results-nav,
      #stylus-popup .search-results-nav button {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      #stylus-popup .search-result {
           background:var(--dark02);
@@ -399,25 +404,25 @@
           box-shadow:none;
      }
      .search-result-title {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           text-decoration:none;
      }
      .search-result:hover .search-result-title {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      .search-result-description {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      .search-result-meta {
           background:var(--dark02) !important;
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
           opacity:0.9 !important;
      }
      #no-styles {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
      #search-replace-dialog textarea,
      .blocked-info {
-          color:var(--lite05) !important;
+          color:var(--dark15) !important;
      }
 }

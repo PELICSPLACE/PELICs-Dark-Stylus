@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          PELIC's Dark Stylus
 @description   A dark user style for the stylus extension based on my own dark themes
-@version       1.2.1
+@version       1.2.2
 @homepageURL   https://github.com/PELICSPLACE/PELICs-Dark-Stylus
 @updateURL     https://github.com/PELICSPLACE/PELICs-Dark-Stylus/raw/main/PELICs_Dark_Stylus.user.css
 @license       CC-BY-SA-4.0
@@ -65,15 +65,6 @@
           --violet:#8500E8;
           --pink:#FF66FF;
           --cyan:#00FFFF;
-          --verylightred:#FF6666;
-          --verylightorange:#FFA466;
-          --verylightyellow:#FFFF66;
-          --verylightgreen:#00FF00;
-          --verylightblue:#66B8FF;
-          --verylightindigo:#9966FF;
-          --verylightviolet:#B44FFF;
-          --verylightpink:#FFB3FF;
-          --verylightcyan:#66FFFF;
           --lightred:#FF3333;
           --lightorange:#FF8533;
           --lightyellow:#FFFF33;
@@ -83,6 +74,15 @@
           --lightviolet:#9E1CFF;
           --lightpink:#FF99FF;
           --lightcyan:#33FFFF;
+          --verylightred:#FF6666;
+          --verylightorange:#FFA466;
+          --verylightyellow:#FFFF66;
+          --verylightgreen:#00FF00;
+          --verylightblue:#66B8FF;
+          --verylightindigo:#9966FF;
+          --verylightviolet:#B44FFF;
+          --verylightpink:#FFB3FF;
+          --verylightcyan:#66FFFF;
           --comment:#008000;
           --success-default:#336633;
           --success-hovered:#448844;

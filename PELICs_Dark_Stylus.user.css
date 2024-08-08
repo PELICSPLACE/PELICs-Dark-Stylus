@@ -133,7 +133,7 @@
           color:var(--lightblue) !important;
      }
      .cm-s-default .cm-builtin {
-          color:var(--verylightgreen) !important;
+          color:var(--darkyellow) !important;
      }
      .cm-s-default .cm-comment {
           color:var(--comment) !important;
@@ -154,7 +154,7 @@
           color:var(--verylightblue) !important;
      }
      .cm-s-default .cm-string {
-          color:var(--verylightgreen) !important;
+          color:var(--lightgreen) !important;
      }
      .CodeMirror-gutters {
           background:var(--dark02) !important;

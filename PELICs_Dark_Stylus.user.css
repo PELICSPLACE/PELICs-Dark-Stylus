@@ -108,7 +108,7 @@
           color:var(--dark18);
           text-shadow:none;
      }
-     
+
      *::selection {
           background:var(--linkage-hovered);
           color:var(--dark18);
@@ -190,9 +190,9 @@
      .section {
           background:var(--dark02) !important;
      }
-	select.applies-type {
-		height:1.3em;
-	}
+     select.applies-type {
+          height:1.3em;
+     }
      /* GLOBAL */
      body,
      html {

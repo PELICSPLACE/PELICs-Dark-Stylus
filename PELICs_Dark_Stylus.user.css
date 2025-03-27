@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          PELIC's Dark Stylus
 @description   A dark user style for the stylus extension based on my own dark themes
-@version       1.2.2
+@version       1.2.3
 @homepageURL   https://github.com/PELICSPLACE/PELICs-Dark-Stylus
 @updateURL     https://github.com/PELICSPLACE/PELICs-Dark-Stylus/raw/main/PELICs_Dark_Stylus.user.css
 @license       CC-BY-SA-4.0
@@ -94,24 +94,45 @@
           --linkage-hovered:#4080BF;
      }
      /*****************************************/
+     /*      Settings for the Scrollbar.      */
+     /*****************************************/
      /* Works on Chrome, Edge, and Safari */
-     *::-webkit-scrollbar{
-          display:none;
+     *::-webkit-scrollbar {
+          width:8px;
+          height:8px;
+          background:var(--dark01) !important;
+     }
+     /* the draggable scrolling handle. */
+     *::-webkit-scrollbar-thumb {
+          background:var(--dark07) !important;
+     }
+     *::-webkit-scrollbar-thumb:hover {
+          background:var(--lite01) !important;
+     }
+     /* the track (progress bar) of the scrollbar. */
+     *::-webkit-scrollbar-track {
+          background:var(--dark02) !important;
+     }
+     /* the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet. */
+     *::-webkit-scrollbar-corner {
+          background:var(--dark07) !important;
      }
      /* Works on Firefox */
      * {
-          scrollbar-width:none;
+          scrollbar-color:var(--dark07) var(--dark01) !important;
+          scrollbar-width:thin !important;
      }
+     /*****************************************/
+     /*     Settings for Highlighted Text     */
      /*****************************************/
      *::-moz-selection {
           background:var(--linkage-hovered);
-          color:var(--dark18);
+          color:var(--lite08);
           text-shadow:none;
      }
-
      *::selection {
           background:var(--linkage-hovered);
-          color:var(--dark18);
+          color:var(--lite08);
           text-shadow:none;
      }
      /*****************************************/

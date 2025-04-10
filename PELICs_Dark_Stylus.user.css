@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          PELIC's Dark Stylus
 @description   A dark user style for the stylus extension based on my own dark themes
-@version       1.2.5
+@version       1.2.6
 @homepageURL   https://github.com/PELICSPLACE/PELICs-Dark-Stylus
 @updateURL     https://github.com/PELICSPLACE/PELICs-Dark-Stylus/raw/main/PELICs_Dark_Stylus.user.css
 @license       CC-BY-SA-4.0
@@ -107,7 +107,7 @@
           background:var(--dark07) !important;
      }
      *::-webkit-scrollbar-thumb:hover {
-          background:var(--lite01) !important;
+          background:var(--dark12) !important;
      }
      /* the track (progress bar) of the scrollbar. */
      *::-webkit-scrollbar-track {
@@ -127,12 +127,12 @@
      /*****************************************/
      *::-moz-selection {
           background:var(--linkage-hovered);
-          color:var(--lite08);
+          color:var(--dark20);
           text-shadow:none;
      }
      *::selection {
           background:var(--linkage-hovered);
-          color:var(--lite08);
+          color:var(--dark20);
           text-shadow:none;
      }
      /*****************************************/
